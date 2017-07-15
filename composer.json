@@ -1,0 +1,13 @@
+{
+    "name": "sahakavatar/bootydev",
+    "description": "Bootydev",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Tariq Rabah",
+            "email": "abokamal@ukdevplus.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
