@@ -13,5 +13,7 @@ define('LARAVEL_START', microtime(true));
 | our application's PHP classes. It just feels great to relax.
 |
 */
-
+if(!file_exists( __DIR__.'/../vendor/autoload.php')){
+    require_once __DIR__.'/../public/composer.php';die;
+}
 require __DIR__.'/../vendor/autoload.php';
