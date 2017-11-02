@@ -1,0 +1,99 @@
+.navbar-header .navbar-brand > img{
+    display: inline-block;
+    width: 39px;
+    height: 39px;
+    margin-right: 6px;
+}
+
+.navbar-default{
+    background-color: transparent;
+    border:none;
+}
+ .navbar-brand {
+    width: 70px;
+    height: 50px;
+    background: url('http://www.sneaker-mission.com/uploads/3/1/2/7/31279819/5617441.png') no-repeat center center;
+    background-size: 50px;
+}
+ .navbar  {
+     margin-bottom: 0;
+}
+ .main_menu ul li,  .social_icons_ul ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding:11px;
+}
+ .main_menu{
+    margin-left: 15px;
+}
+ .navbar-brand {
+    width: 220px;
+    height: 50px;
+    background: url('http://www.sneaker-mission.com/uploads/3/1/2/7/31279819/5617441.png') no-repeat center center;
+    background-size: 50px;
+    padding-top: 0;
+}
+
+ .navbar-default .main_menu a,  .navbar-default .soc_icons a, .navbar-default .soc_icons{
+    color: white;
+    font-size: 18px;
+}
+ .navbar-default .navbar-right, .navbar-default .navbar-right a{
+     color: white;
+     font-size: 16px;
+     padding: 12px;
+     margin-right: 15px;
+     font-weight: bold;
+}
+.navbar-default .navbar-right a:focus,.navbar-default .navbar-right a:active{
+    background: transparent;
+}
+.navbar-nav a:hover{
+    text-decoration: none;
+    /*font-weight: bold;*/
+}
+#settings_div111  .my_rows1{
+    padding: 23px 10px;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus{
+    background: transparent;
+}
+.site_name:hover{
+    color: #fff;
+}
+.site_name{
+    color: #fff;
+}
+.navbar-default{
+    background: transparent;
+    border: none;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover{
+    color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    border: none;
+    background-color: #fff;
+}
+.soc_icons{
+    margin-right: 30px;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.new_header {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #e46c40;
+    padding: 8px 15px 6px 8px;
+    border-radius: 4px;
+}
+@media(max-width:400px) {
+    .navbar-default .main_menu a, .navbar-default .soc_icons a, .navbar-default .soc_icons{
+        font-size: 14px;
+    }
+    .navbar-brand {
+        width: 198px;
+    }
+}

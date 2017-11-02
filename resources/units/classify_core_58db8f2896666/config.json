@@ -1,0 +1,18 @@
+{
+  "title": "Classify Core",
+  "self_type": "units",
+  "plugin": "sahak.avatar/avatar",
+  "main_type": "buttons",
+  "type": "general_fields",
+  "enabled": "true",
+  "have_settings": 1,
+  "author": "Sahak",
+  "main_file": "tpl.blade.php",
+  "settings": "settings.blade.php",
+  "slug": "58db8f2896666",
+  "folder": "classify_core_58db8f2896666",
+  "created_at": 1490784040,
+  "is_core": 0,
+  "place": "backend",
+  "path": "resources\\units\\classify_core_58db8f2896666"
+}

@@ -1,0 +1,27 @@
+.container_card{
+    color: #fff!important;background-color: #616161!important;
+    text-align: center;
+    padding: 10px;
+}
+
+.container_card img{
+    width: 80%;
+    height: 296px;
+}
+.green {
+    background: green;
+}
+.red{
+    background:#f44336;
+}
+
+.terms-boxdesgin ul{ padding: 0 0 0 15px; margin: 0}
+.terms-boxdesgin li{ padding: 0 0 5px 15px; position: relative; }
+.btnplus { display:inline-block; padding: 2px; font-size: 11px; border:0; background:rgba(0,0,0,0); position: absolute; left: 0; top: 5px;}
+
+
+
+
+
+
+

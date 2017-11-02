@@ -1,0 +1,16 @@
+{
+  "title": "Profile content pro",
+  "type": "unit",
+  "enabled": "true",
+  "have_settings": 1,
+  "author": "Sahak",
+  "main_file": "tpl.blade.php",
+  "settings": "settings.blade.php",
+  "slug": "6556bfc723tt66",
+  "folder": "profile_content_6556bfc723tt66",
+  "created_at": 1498152050,
+  "is_core": 1,
+  "tags":["front_page_content"],
+  "place": "frontend",
+  "path": "resources\/units\/profile_content_6556bfc723tt66"
+}

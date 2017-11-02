@@ -1,0 +1,47 @@
+{
+  "types": [
+    {
+      "type": "core",
+      "title": "General",
+      "foldername": "general",
+      "subs": [
+        {
+          "title": "Buttons",
+          "foldername": "buttons",
+          "type": "core"
+        },
+        {
+          "title": "Separator",
+          "foldername": "separator",
+          "type": "core"
+        },
+        {
+          "title": "Others",
+          "foldername": "others",
+          "type": "core"
+        },
+        {
+          "title": "Breadcrumb",
+          "foldername": "breadcrumb",
+          "type": "core"
+        }
+
+      ]
+    },
+    {
+      "type": "core",
+      "title": "Fields",
+      "foldername": "fields"
+    },
+    {
+      "type": "core",
+      "title": "Blog",
+      "foldername": "blog"
+    },
+    {
+      "title": "Media",
+      "foldername": "media",
+      "type": "core"
+    }
+  ]
+}

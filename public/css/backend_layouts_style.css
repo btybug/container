@@ -1,0 +1,102 @@
+.main_lay_cont .ly_items{
+    width: 95%;
+    margin: 0 auto;
+}
+.main_lay_cont .layouts_row{
+    margin-top: 45px;
+}
+.main_lay_cont .for_title_row {
+    margin: 37px 0 27px 0;
+}
+.main_lay_cont  h1 {
+    width: 50%;
+    color: #555;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 32px;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0 0 15px;
+    border-bottom: 1px solid #ddd;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.main_lay_cont .ly_items:hover h3 {
+    transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -o-transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+}
+
+.main_lay_cont h3 {
+    color: #555555 !important;
+    text-transform: uppercase;
+    position: relative;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+}
+.main_lay_cont .ly_items {
+    margin: 0 10px !important;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    padding: 10px 20px !important;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fbfbfb;
+    border: 1px solid #d8d8d8;
+}
+.main_lay_cont .ly_items:hover{
+    text-decoration: none!important;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    background-color: #eeeeee;
+}
+.main_lay_cont .ly_items:hover h2{
+    color: #369ad0!important;
+}
+
+ .main_lay_cont .ly_items:hover h2  {
+    cursor: pointer;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transform: translateY(-50px);
+    -moz-transform: translateY(-50px);
+    -o-transform: translateY(-50px);
+    -webkit-transform: translateY(-50px);
+}
+.main_lay_cont .ly_items h2 {
+    color: #499bc7;
+    font-size: 50px;
+    margin: 25px 0;
+    display: inline-block;
+    width: 80px;
+    line-height: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    position: relative;
+}
+
+.main_lay_cont .items_links{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 765px) {
+    .main_lay_cont h1 {
+        font-size: 21px;
+    }
+}

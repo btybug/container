@@ -1,0 +1,17 @@
+{
+  "title": "Front sidebar pro",
+  "author": "Edo",
+  "site": "http:\/\/bootydev.co.uk",
+  "version": "1.0",
+  "type": "unit",
+  "description": "Super  sidebar",
+  "have_setting": 1,
+  "image": "screenshot.png",
+  "slug": "frontend_sidebar_3434343434",
+  "folder": "frontend_sidebar_3434343434",
+  "created_at": 1490088665,
+  "is_core": 1,
+  "place": "frontend",
+  "tags": ["frontend_sidebar","frontend"],
+  "path": "resources\/units\/frontend_sidebar_3434343434"
+}

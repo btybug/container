@@ -1,0 +1,41 @@
+{
+  "title": "Frontend layout 2 areas",
+  "author": "Edo",
+  "self_type": "page_sections",
+  "type": "general",
+  "version": 1,
+  "descrition": "Frontend layout 2 areas",
+  "layout": "main",
+  "panel": "panel",
+  "css": [
+    "style.css",
+    "setting-body.css"
+  ],
+  "js": [
+    "js.js"
+  ],
+  "settings": {
+    "file": "settings",
+    "css": [
+      "style.css"
+    ],
+    "js": [
+      "js.js"
+    ]
+  },
+  "placeholders": {
+    "left_bar": {
+      "type": "unit",
+      "tag": "frontend_sidebar",
+      "title": "Left Sidebar"
+    }
+  },
+  "folder": "front_layout_with_2_col",
+  "active": false,
+  "tags":["front_pages_layout"],
+  "slug": "front_layout_with_2_col",
+  "created_at": 1493719963,
+  "is_core": 0,
+  "place": "frontend",
+  "path": "resources\\views\\ContentLayouts\\front_layout_with_2_col"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Super Backend Header",
+  "author": "Edo",
+  "site": "http:\/\/bootydev.co.uk",
+  "version": "1.0",
+  "self_type": "units",
+  "type": "units",
+  "description": "Super header template",
+  "have_setting": 1,
+  "image": "screenshot.png",
+  "slug": "backend_header_super",
+  "folder": "backend_header_super",
+  "created_at": 1490088665,
+  "is_core": 0,
+  "place": "backend",
+  "tags": ["backend_header","backend"],
+  "path": "resources\\units\\backend_header_super"
+}

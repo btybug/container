@@ -1,0 +1,17 @@
+{
+  "title": "Login pro",
+  "author": "Edo",
+  "site": "http:\/\/bootydev.co.uk",
+  "version": "1.0",
+  "type": "unit",
+  "description": "Super Login unit",
+  "have_setting": 1,
+  "image": "screenshot.png",
+  "slug": "user_login_55cd5cd4cdca",
+  "folder": "user_login_55cd5cd4cdca",
+  "created_at": 1490088665,
+  "is_core": 1,
+  "place": "frontend",
+  "tags": ["user-unit"],
+  "path": "resources\/units\/user_login_55cd5cd4cdca"
+}

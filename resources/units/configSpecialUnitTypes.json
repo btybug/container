@@ -1,0 +1,14 @@
+{
+  "types": [
+    {
+      "type": "core",
+      "title": "Users",
+      "foldername": "users"
+    },
+    {
+      "type": "core",
+      "title": "Pages",
+      "foldername": "pages"
+    }
+  ]
+}

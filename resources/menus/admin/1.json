@@ -1,0 +1,141 @@
+[
+
+  {
+    "title": "Uploads",
+    "custom-link": "",
+    "icon": "fa fa-smile-o",
+    "is_core": "yes",
+    "children": [
+      {
+        "title": "Modules",
+        "custom-link": "\/admin\/uploads\/modules",
+        "icon": "fa fa-angle-right",
+        "is_core": "yes"
+      },{
+        "title": "Gears",
+        "custom-link": "\/admin\/uploads/gears",
+        "icon": "fa fa-angle-right",
+        "is_core": "yes"
+      },{
+        "title": "Assets",
+        "custom-link": "\/admin\/uploads\/assets",
+        "icon": "fa fa-angle-right",
+        "is_core": "yes"
+      }
+    ]
+  },{
+    "title" : "Developer console",
+    "custom-link" : "#",
+    "icon" : "fa fa-ils",
+    "is_core" : "yes",
+    "children": [
+      {
+        "title": "Structure",
+        "custom-link": "\/admin\/console\/structure",
+        "icon": "fa fa-angle-right",
+        "is_core": "yes"
+      },{
+        "title": "Backend",
+        "custom-link": "\/admin\/console\/backend",
+        "icon": "fa fa-angle-right",
+        "is_core": "yes"
+      },{
+        "title": "General",
+        "custom-link": "\/admin\/console\/general",
+        "icon": "fa fa-angle-right",
+        "is_core": "yes"
+      }
+    ]
+  },
+  {
+    "title": "Users",
+    "custom-link": "",
+    "icon": "fa fa-users",
+    "is_core": "yes",
+    "children": [
+      {
+        "title": "All Users",
+        "custom-link": "\/admin\/users",
+        "icon": "fa fa-angle-right",
+        "is_core": "yes"
+      },{
+        "title": "Roles & Memberships",
+        "custom-link": "\/admin\/users\/roles",
+        "icon": "fa fa-angle-right",
+        "is_core": "yes"
+      }
+    ]
+  },
+  {
+    "title": "Media",
+    "custom-link": "",
+    "icon": "fa fa-film",
+    "is_core": "yes",
+    "children": [
+      {
+        "title": "Trash",
+        "custom-link": "\/admin\/media\/trash",
+        "icon": "fa fa-trash",
+        "is_core": "yes"
+      }, {
+        "title": "Settings",
+        "custom-link": "\/admin\/media\/settings",
+        "icon": "fa fa-trash",
+        "is_core": "yes"
+      }
+    ]
+  },{
+    "title" : "Manage",
+    "custom-link" : "#",
+    "icon" : "fa fa-hand-lizard-o",
+    "is_core" : "yes",
+    "children": [
+      {
+        "title": "Front-End",
+        "custom-link": "\/admin\/manage\/frontend\/pages",
+        "icon": "fa fa-angle-right",
+        "is_core": "yes"
+      },{
+        "title": "Structure",
+        "custom-link": "\/admin\/manage\/structure",
+        "icon": "fa fa-angle-right",
+        "is_core": "yes"
+      },{
+        "title": "System",
+        "custom-link": "\/admin\/manage\/system",
+        "icon": "fa fa-angle-right",
+        "is_core": "yes"
+      },{
+        "title": "Events",
+        "custom-link": "\/admin\/manage\/event",
+        "icon": "fa fa-angle-right",
+        "is_core": "yes"
+      },{
+        "title": "Emails",
+        "custom-link": "\/admin\/manage\/emails",
+        "icon": "fa fa-angle-right",
+        "is_core": "yes"
+      }
+    ]
+  },{
+    "title" : "Framework",
+    "custom-link" : "#",
+    "icon" : "fa fa-thumbs-o-up",
+    "is_core" : "yes",
+    "children": [
+      {
+        "title": "Settings",
+        "custom-link": "\/admin\/framework\/settings",
+        "icon": "fa fa-angle-right",
+        "is_core": "yes"
+      },
+      {
+        "title": "Assets",
+        "custom-link": "\/admin\/framework",
+        "icon": "fa fa-angle-right",
+        "is_core": "yes"
+      }
+    ]
+  }
+]
+

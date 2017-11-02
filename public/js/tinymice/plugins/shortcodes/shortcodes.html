@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+ <link media="all" type="text/css" rel="stylesheet" href="/resources/assets/css/bootstrap.css">
+ 
+<script src="/resources/assets/js/jquery-2.1.4.min.js"></script>
+
+    <script src="/resources/assets/js/jqueryui/js/jquery-ui.min.js"></script>
+
+    <script src="/resources/assets/js/bootstrap.min.js"></script>
+    <script>
+		
+		function insetshortcode(t){
+			var getvalue = $(t).data('shortcode')
+			
+			$('#content').val(getvalue);
+		}
+	</script>
+</head>
+
+<body>
+ <div class="container-fluid"><br>
+ 	<div class="row">
+ 			<div class="col-lg-12">
+ 					<button type="button" class="btn btn-default" onClick="insetshortcode(this)"  data-shortcode="[form id=1]">[form id=1]</button>
+ 					<button type="button" class="btn btn-default" onClick="insetshortcode(this)"  data-shortcode="[form id=2]">[form id=2]</button>
+ 					<button type="button" class="btn btn-default" onClick="insetshortcode(this)"  data-shortcode="[form id=3]">[form id=3]</button>
+ 					<button type="button" class="btn btn-default" onClick="insetshortcode(this)"  data-shortcode="[form id=4]">[form id=4]</button>
+ 				
+ 			</div>
+ 		
+ 	</div>
+ </div>
+<input id="content" value='' hidden="" >
+</body>
+</html>

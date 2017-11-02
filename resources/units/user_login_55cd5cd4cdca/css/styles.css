@@ -1,0 +1,44 @@
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+#nav-user-menu .navbar-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    margin-top: 20px;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+#nav-user-menu .navbar-wrapper .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+#nav-user-menu .navbar-wrapper .navbar {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#nav-user-menu .navbar-content
+{
+    width:320px;
+    padding: 15px;
+    padding-bottom:0px;
+}
+#nav-user-menu .navbar-content:before, .navbar-content:after
+{
+    display: table;
+    content: "";
+    line-height: 0;
+}
+#nav-user-menu .navbar-nav.navbar-right:last-child {
+    margin-right: 15px !important;
+}
+#nav-user-menu .navbar-footer
+{
+    background-color:#DDD;
+}
+#nav-user-menu .navbar-footer-content { padding:15px 15px 15px 15px; }
+#nav-user-menu .dropdown-menu {
+    padding: 0px;
+    overflow: hidden;
+}

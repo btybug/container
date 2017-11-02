@@ -1,0 +1,17 @@
+{
+  "title": "Default Left Bar",
+  "author": "Edo",
+  "site": "http:\/\/bootydev.co.uk",
+  "version": "1.0",
+  "self_type": "units",
+  "description": "Super Left Bar template",
+  "have_setting": 1,
+  "image": "screenshot.png",
+  "slug": "58d166ae1246f",
+  "folder": "left_bar_58d166ae1246f",
+  "created_at": 1490118318,
+  "is_core": 0,
+  "place": "backend",
+  "path": "resources\\units\\left_bar_58d166ae1246f",
+  "tags": ["backend","v-bar"]
+}

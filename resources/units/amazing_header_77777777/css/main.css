@@ -1,0 +1,108 @@
+@import "https://fonts.googleapis.com/css?family=Sofia";
+
+.sahak-header{
+    /*position: fixed;*/
+    z-index: 99999999999;
+    background-color: #000000;
+    width: 100%;
+    height: 50px;
+    color: #ff0000;
+}
+
+.sahak-header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.sahak-header li {
+    float: left;
+}
+
+.sahak-header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.sahak-header li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.sahak-header .active {
+    background-color: #4CAF50;
+}
+.sahak-header .navbar a {
+    text-transform: capitalize;
+}
+.sahak-header img{
+    width: 72px;
+    height: 50px;
+    border-radius: 50%;
+}
+.sahak-header .header-logo,.site-name{
+    display: -webkit-inline-box;
+}
+.sahak-header-banner{
+    width: 100%;
+    height: 80px;
+    background-color: #eae8da;
+    text-align: center;
+    font-family: Sofia;
+    font-size: 50px;
+}
+.fixed {
+    position: fixed;
+    top:0; left:0;
+    opacity: 0.75;
+}
+.sahak-header .site-name{
+    font-family: Sofia;
+    font-size: 25px;
+    color: cornsilk;
+    margin-left: 10px;
+}
+
+.sahak-header .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 13px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.sahak-header .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.sahak-header .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.sahak-header .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.sahak-header .dropdown-content a:hover {background-color: #f1f1f1}
+
+.sahak-header .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.sahak-header .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Amazing Header",
+  "author": "Sahak",
+  "site": "http:\/\/bootydev.co.uk",
+  "version": "1.0",
+  "type": "unit",
+  "description": "Super header unit",
+  "have_setting": 1,
+  "image": "screenshot.png",
+  "slug": "77777777",
+  "folder": "amazing_header_77777777",
+  "created_at": 1490088665,
+  "is_core": 1,
+  "place": "frontend",
+  "tags": ["frontend_header","frontend"],
+  "path": "resources\/units\/amazing_header_77777777"
+}

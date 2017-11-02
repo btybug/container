@@ -1,0 +1,17 @@
+{
+  "title": "Medicio Header",
+  "author": "Sahak",
+  "site": "http:\/\/bootydev.co.uk",
+  "version": "1.0",
+  "type": "unit",
+  "description": "Super header unit",
+  "have_setting": 1,
+  "image": "screenshot.png",
+  "slug": "7564i2d9858ae",
+  "folder": "medicio_header_7564i2d9858ae",
+  "created_at": 1490088665,
+  "is_core": 1,
+  "place": "frontend",
+  "tags": ["frontend_header","frontend"],
+  "path": "resources\/units\/medicio_header_7564i2d9858ae"
+}

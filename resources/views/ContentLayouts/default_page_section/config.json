@@ -1,0 +1,42 @@
+{
+  "title": "Default Backend Layout",
+  "author": "Edo",
+  "self_type" : "layouts",
+  "version": 1,
+  "descrition": "Default Page Section description",
+  "layout": "tpl",
+  "css": [
+    "style.css",
+    "font-awesome\/css\/font-awesome.min.css"
+  ],
+  "js": [
+    "js.js"
+  ],
+  "settings": {
+    "file": "settings",
+    "css": [
+      "style.css"
+    ],
+    "js": []
+  },
+  "slug": "default_page_section",
+  "created_at": 1476346979,
+  "folder": "default_page_section",
+  "options": [],
+  "active": true,
+  "example": "demo",
+  "tags" : ["backend"],
+  "path": "resources\/views\/ContentLayouts\/default_page_section",
+  "placeholders" : {
+    "left_bar" : {
+      "self_type" : "unit",
+      "data-type" : "left_bar",
+      "title":"Left bar"
+    },
+    "right_bar" : {
+      "self_type" : "unit",
+      "data-type" : "right_bar",
+      "title":"Right bar"
+    }
+  }
+}

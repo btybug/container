@@ -1,0 +1,17 @@
+{
+  "title": "Landing Page",
+  "main_type": "buttons",
+  "type": "unit",
+  "enabled": "true",
+  "have_settings": 1,
+  "author": "Sahak",
+  "main_file": "tpl.blade.php",
+  "settings": "settings.blade.php",
+  "slug": "6556bfc723af75",
+  "folder": "landing_page_6556bfc723af75",
+  "created_at": 1498152050,
+  "is_core": 1,
+  "tags":["front_page_content"],
+  "place": "frontend",
+  "path": "resources\/units\/landing_page_6556bfc723af75"
+}

@@ -1,0 +1,15 @@
+# Created by .ignore support plugin (hsz.mobi)
+vendor/bin
+vendor/autoload.php
+vendor/composer
+vendor/doctrine
+vendor/hamcrest
+vendor/mockery
+vendor/myclabs
+vendor/phpdocumentor
+vendor/phpspec
+vendor/phpunit
+vendor/sahak.avatar
+vendor/sebastian
+vendor/symfony
+vendor/webmozart

@@ -1,0 +1,80 @@
+
+.iconSprite {
+    background: url(/resources/assets/images/icon-sprite.png) no-repeat 0 0;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.iconLock {
+    background-position: 0 0;
+    width: 15px;
+    height: 19px;
+}
+
+.iconCup {
+    background-position: -20px 0;
+    width: 21px;
+    height: 16px;
+}
+
+.nav-tabs.uiTabs {
+    padding-top: 5px; border-bottom: solid 3px #499bc7; margin-bottom: 15px;
+}
+.nav-tabs.uiTabs li{ margin: 0; padding: 0; }
+
+.nav-tabs.uiTabs > li > a {
+    background-color: #f0f0f0;
+    color: #8a8a8a;
+    border:solid 1px #cccccc; 
+    padding: 5px 22px 4px 22px; min-width: 100px;
+    font-weight: bold;
+    position: relative; margin-top: 8px; margin-right: 0;
+}
+
+
+.nav-tabs.uiTabs > li > a i {
+    margin-right: 20px;  
+}
+
+.nav-tabs.uiTabs > li.active > a, .nav-tabs.uiTabs > li.active > a:focus, .nav-tabs.uiTabs > li.active > a:hover, .nav-tabs.uiTabs > li > a:hover {
+    background-color: #499bc7;
+    color: #ffffff; border-color: #499bc7;
+    margin-top: 0px; padding-top: 9px; padding-bottom: 8px;  
+}
+
+/*.nav-tabs.uiTabs > li > a:before {
+    content: '';
+    display: none;
+    background: url(/resources/assets/js/images/tab-left-img.png) no-repeat left 0;
+    width: 17px;
+    height: 44px;
+    position: absolute;
+    bottom: 0;
+    left: -17px;
+}*/
+
+/*.nav-tabs.uiTabs > li.active > a:before, .nav-tabs.uiTabs > li.active > a:focus:before, .nav-tabs.uiTabs > li.active > a:hover:before {
+    display: inline-block;
+}
+
+.nav-tabs.uiTabs > li > a:after {
+    content: '';
+    display: none;
+}
+
+.nav-tabs.uiTabs > li.active > a:after, .nav-tabs.uiTabs > li.active > a:focus:after, .nav-tabs.uiTabs > li.active > a:hover:after {
+    display: block
+}
+
+.nav-tabs.uiTabs > li:first-child > a:before, .nav-tabs.uiTabs > li:first-child > a:after {
+    display: none;
+}*/
+.nav-tabs>li.tabdownloadbtn{
+    float: right;
+}
+.nav-tabs.uiTabs > li.tabdownloadbtn > a {
+    background-color: #ac4040;
+    border-color: #ac4040;
+    color: #FFF;
+}

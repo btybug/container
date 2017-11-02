@@ -1,0 +1,17 @@
+{
+  "title": "Profile sidebar pro",
+  "author": "Sahak",
+  "site": "http:\/\/bootydev.co.uk",
+  "version": "1.0",
+  "type": "unit",
+  "description": "Super  unit",
+  "have_setting": 1,
+  "image": "screenshot.png",
+  "slug": "2345f2d9858ae",
+  "folder": "profile_sidebar_2345f2d9858ae",
+  "created_at": 1490088665,
+  "is_core": 1,
+  "place": "frontend",
+  "tags": ["frontend_sidebar","frontend"],
+  "path": "resources\/units\/profile_sidebar_2345f2d9858ae"
+}

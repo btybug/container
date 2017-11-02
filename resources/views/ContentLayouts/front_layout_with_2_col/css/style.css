@@ -1,0 +1,17 @@
+.no-padding{
+    padding:0 !important;
+}
+
+.bordered-bar{
+    border-right: 1px solid #909090;
+}
+
+.shadowed-bar{
+    box-shadow: 3px 0 5px 1px rgba(0, 0, 0, 0.52);
+    position: relative;
+    z-index: 1;
+}
+
+.main-wrapper img{
+    max-width:100% !important;
+}

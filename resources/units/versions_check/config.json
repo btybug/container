@@ -1,0 +1,16 @@
+{
+  "title": "Versions check",
+  "type": "unit",
+  "enabled": "true",
+  "have_settings": 1,
+  "author": "Edo",
+  "main_file": "tpl.blade.php",
+  "settings": "settings.blade.php",
+  "slug": "versions_check",
+  "folder": "versions_check",
+  "created_at": 1498152050,
+  "is_core": 1,
+  "tags":["front_page_content"],
+  "place": "frontend",
+  "path": "resources\/units\/versions_check"
+}

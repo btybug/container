@@ -1,0 +1,130 @@
+ul.source, ul.target {
+  min-height: 50px;
+  margin: 0px;
+  padding: 2px;
+  list-style-type: none;
+  list-style-position: inside;
+}
+ul.source{ max-height:375px; overflow:auto}
+ul.source.overflownone { overflow:inherit; max-height:inherit;}
+ul.source li, ul.target li{ margin-bottom:10px; border-radius:5px; cursor:pointer; padding:5px 15px; white-space: nowrap; overflow: hidden;text-overflow: ellipsis;  }
+ul.target li { padding-right:100px}
+ul.source li:hover, ul.target li:hover{ background:#f0f3f4;}
+.listtool{ position:absolute; right:4px; top:4px;}
+.source li .dismiss, .source li .listtool, .ui-sortable-helper  .listtool{ display:none;}
+.sortable-dragging {
+  border-color: #ccc !important;
+  background-color: #fafafa !important;
+  color: #bbb !important;
+}
+
+.leftpanel { background:#f0f0f0; border:solid 1px #e2e2e2; padding-top:10px; padding-bottom:10px; border-radius:5px;}
+.leftpanel ul.source li, ul.listwithlink li{ margin-bottom:1px; padding:8px 10px; cursor:default}
+.leftpanel ul.source li a,  ul.listwithlink li a{ display:block; padding:0px 10px}
+.leftpanel ul.source li a.btn, ul.listwithlink li .btn { padding:1px 5px}
+.listwithlink li:hover .listtool{ display:block; top:8px }
+.listwithlink li .listtool a{ display:inline-block}
+ul.listwithlink li.active > a{ color:#FFF;}
+ul.listwithlink li{ margin-bottom:7px; padding:4px 10px;}
+ul.listwithlink li > a{padding:4px 10px}
+
+ul.source.overflownone li a:focus { outline:0; text-decoration:none}
+ul.source.overflownone li:hover, ul.source.overflownone li.active { background-color: #337ab7;
+    border-color: #337ab7;
+    color: #fff;}
+ul.source.overflownone li:hover a{ color:#FFF; text-decoration:none;}    
+
+.posrelative{ position:relative}
+
+.loadinanimation{ position:absolute; z-index:99; left:0; top:0; right:0; bottom:10px; background: rgba(255,255,255,0.7) url(../img/loading.gif) no-repeat center center}
+
+
+
+
+.mediaheading {
+    border-bottom: 1px solid #cecece;
+    color: #4d4848;
+    font-size: 17px;
+    margin-top: 0px;
+	line-height:33px;
+    padding: 0px 0 10px;
+    position: relative;
+    text-align: center;
+}
+
+.ui-sortable-placeholder, .ui-draggable-dragging {
+  height: 32px; visibility:visible !important; border-style:dashed;
+}
+
+.bild .checkbox{ margin-top:10px}
+.bild .checkbox {
+  padding-left: 20px;
+}
+.bild .checkbox label {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  padding-left: 5px;
+}
+.bild .checkbox label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 0;
+  margin-left: -20px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  background-color: #fff;
+  -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+  -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+  transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+.bild .checkbox label::after {
+  display: inline-block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 0;
+  top: 0;
+  margin-left: -20px;
+  padding-left: 3px;
+  padding-top: 1px;
+  font-size: 11px;
+  color: #555555;
+}
+.bild .checkbox input[type="checkbox"],
+.bild .checkbox input[type="radio"] {
+  opacity: 0;
+  z-index: 1;
+}
+.bild .checkbox input[type="checkbox"]:focus + label::before,
+.bild .checkbox input[type="radio"]:focus + label::before {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.bild .checkbox input[type="checkbox"]:checked + label::after,
+.bild .checkbox input[type="radio"]:checked + label::after {
+  font-family: "FontAwesome";
+  content: "\f00c";
+}
+
+
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.menuwithbutton .listtool{ display: none;}
+.menuwithbutton .listtool, .menuwithbutton li:hover .listtool{ top: 8px;  display: none; }
+.menuwithbutton .active .listtool, .menuwithbutton .active:hover .listtool{ display: block;}
+ul.menuwithbutton li { padding: 8px 15px;}
+.boxpanelminheight > .panel-body { min-height: 300px;}
+.menuwithbutton .list-group-item > .badge{ float: none;}
+.event-leftbar{ border-right: solid 1px rgba(0,0,0,0.2); min-height: 300px;}
+
