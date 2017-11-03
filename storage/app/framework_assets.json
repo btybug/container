@@ -1,0 +1,13 @@
+{
+  "5911d65ca52c0": {
+    "title": "TinyMCE",
+    "self_type": "assets",
+    "type": "editors",
+    "preview": "preview.blade.php",
+    "shortcode": "[FW-mce]",
+    "created_at": 1494341212,
+    "slug": "5911d65ca52c0",
+    "folder": "tinymce",
+    "path": "app\/Modules\/Framework\/assets\/editor\/tinymce"
+  }
+}

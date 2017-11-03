@@ -1,0 +1,25 @@
+{
+  "default": {
+    "hierarchy":{
+    "core_57f6a5c67c2e6": [
+      "0",
+      "1",
+      "core_test",
+      "2",
+      "3",
+      "4"
+    ],
+    "core_57f6a5c67c2f0": [],
+    "core_57f6a5c67c2f4": [],
+    "core_57f6a5c67c2f8": [],
+    "core_57f6a5c67c2fb": [],
+    "core_57f6a5c67c2ff": [],
+    "core_57f6a5c67c302": [],
+    "core_57f6a5c67c306": [],
+    "core_57f6a5c67c309": []
+    },
+    "id": "default",
+    "name":"Admin left menu",
+    "menu_type":"backend"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "types": [
+    {
+      "type": "core",
+      "title": "Users",
+      "slug": "users"
+    },
+    {
+      "type": "core",
+      "title": "Blogs",
+      "slug": "blogs"
+    },
+    {
+      "type": "core",
+      "title": "Frontend Pages",
+      "slug": "frontend_pages"
+    }
+  ]
+}
