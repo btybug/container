@@ -33,16 +33,24 @@
         font-family: opensans;
     }
     .nav-side-menu {
-        overflow: auto;
+        /*overflow: auto;*/
+        /*font-size: 12px;*/
+        /*font-weight: 200;*/
+        /*background-color: #273135;*/
+        /*position: fixed;*/
+        /*top: 75px !important;*/
+        /*left: 0 !important;*/
+        /*height: 100%;*/
+        /*color: #e1ffff;*/
+        /*min-height: 500px;*/
         font-size: 12px;
         font-weight: 200;
-        background-color: #273135;
-        position: fixed;
-        top: 75px !important;
-        left: 0 !important;
-        height: 100%;
         color: #e1ffff;
-        min-height: 500px;
+        min-height: 100%;
+        z-index: 800;
+    }
+    .nav-side-menu .brand{
+        height: auto;
     }
     .nav-side-menu .orange{
         height: 75px;

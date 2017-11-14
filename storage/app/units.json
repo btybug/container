@@ -1,1 +1,393 @@
-{"58db8f2896666":{"title":"Classify Core","self_type":"units","plugin":"sahak.avatar\/avatar","main_type":"buttons","type":"general_fields","enabled":"true","have_settings":1,"author":"Sahak","main_file":"tpl.blade.php","settings":"settings.blade.php","slug":"58db8f2896666","folder":"classify_core_58db8f2896666","created_at":1490784040,"is_core":0,"place":"backend","path":"resources\/units\/classify_core_58db8f2896666"},"6556bfc723af75":{"title":"Landing Page","type":"unit","enabled":"true","have_settings":1,"author":"Sahak","main_file":"tpl.blade.php","settings":"settings.blade.php","slug":"6556bfc723af75","folder":"landing_page_6556bfc723af75","created_at":1498152050,"is_core":1,"tags":["front_page_content"],"place":"frontend","path":"resources\/units\/landing_page_6556bfc723af75"},"6556bfc723af88":{"title":"Medicio","type":"unit","enabled":"true","have_settings":1,"author":"Sahak","main_file":"tpl.blade.php","settings":"settings.blade.php","slug":"6556bfc723af88","folder":"medicio_6556bfc723af88","created_at":1498152050,"is_core":1,"tags":["front_page_content"],"place":"frontend","path":"resources\/units\/medicio_6556bfc723af88"},"7564i2d9858ae":{"title":"Medicio Header","author":"Sahak","site":"http:\/\/bootydev.co.uk","version":"1.0","type":"unit","description":"Super header unit","have_setting":1,"image":"screenshot.png","slug":"7564i2d9858ae","folder":"medicio_header_7564i2d9858ae","created_at":1490088665,"is_core":1,"place":"frontend","tags":["frontend_header","frontend"],"path":"resources\/units\/medicio_header_7564i2d9858ae"},"5445f2d9858ae":{"title":"Medicio  Footer","author":"Sahak","site":"http:\/\/bootydev.co.uk","version":"1.0","type":"unit","description":"Super Footer unit","have_setting":1,"image":"screenshot.png","slug":"5445f2d9858ae","folder":"medicio_footer_5445f2d9858ae","created_at":1490088665,"is_core":1,"place":"frontend","tags":["frontend_footer","frontend"],"path":"resources\/units\/medicio_footer_5445f2d9858ae"},"9999f2d9858ae":{"title":"Default Frontend Header","author":"Sahak","site":"http:\/\/bootydev.co.uk","version":"1.0","type":"unit","description":"Super header unit","have_setting":1,"image":"screenshot.png","slug":"9999f2d9858ae","folder":"frontend_header_9999f2d9858ae","created_at":1490088665,"is_core":1,"place":"frontend","tags":["frontend_header","frontend"],"path":"resources\/units\/frontend_header_9999f2d9858ae"},"4554f2d9858ae":{"title":"Default Frontend Footer","author":"Sahak","site":"http:\/\/bootydev.co.uk","version":"1.0","type":"unit","description":"Super Footer unit","have_setting":1,"image":"screenshot.png","slug":"4554f2d9858ae","folder":"frontend_footer_4554f2d9858ae","created_at":1490088665,"is_core":1,"place":"frontend","tags":["frontend_footer","frontend"],"path":"resources\/units\/frontend_footer_4554f2d9858ae"},"58d0f2d9858ae":{"title":"Default Backend Header Plus","author":"Edo","site":"http:\/\/bootydev.co.uk","version":"1.0","self_type":"units","type":"header","description":"Super header template","have_setting":1,"image":"screenshot.png","slug":"58d0f2d9858ae","folder":"backend_header_58d0f2d9858ae","created_at":1490088665,"is_core":0,"place":"backend","tags":["backend_header","backend"],"path":"resources\/units\/backend_header_58d0f2d9858ae"},"58d166ae1246f":{"title":"Default Left Bar","author":"Edo","site":"http:\/\/bootydev.co.uk","version":"1.0","self_type":"units","description":"Super Left Bar template","have_setting":1,"image":"screenshot.png","slug":"58d166ae1246f","folder":"left_bar_58d166ae1246f","created_at":1490118318,"is_core":0,"place":"backend","path":"resources\/units\/left_bar_58d166ae1246f","tags":["backend","left_bar"]},"versions_check":{"title":"Versions check","type":"unit","enabled":"true","have_settings":1,"author":"Edo","main_file":"tpl.blade.php","settings":"settings.blade.php","slug":"versions_check","folder":"versions_check","created_at":1498152050,"is_core":1,"tags":["front_page_content"],"place":"frontend","path":"resources\/units\/versions_check"},"2345f2d9858ae":{"title":"Profile sidebar pro","author":"Sahak","site":"http:\/\/bootydev.co.uk","version":"1.0","type":"unit","description":"Super  unit","have_setting":1,"image":"screenshot.png","slug":"2345f2d9858ae","folder":"profile_sidebar_2345f2d9858ae","created_at":1490088665,"is_core":1,"place":"frontend","tags":["frontend_sidebar","frontend"],"path":"resources\/units\/profile_sidebar_2345f2d9858ae"},"frontend_sidebar_3434343434":{"title":"Front sidebar pro","author":"Edo","site":"http:\/\/bootydev.co.uk","version":"1.0","type":"unit","description":"Super  sidebar","have_setting":1,"image":"screenshot.png","slug":"frontend_sidebar_3434343434","folder":"frontend_sidebar_3434343434","created_at":1490088665,"is_core":1,"place":"frontend","tags":["frontend_sidebar","frontend"],"path":"resources\/units\/frontend_sidebar_3434343434"},"6556bfc723tt66":{"title":"Profile content pro","type":"unit","enabled":"true","have_settings":1,"author":"Sahak","main_file":"tpl.blade.php","settings":"settings.blade.php","slug":"6556bfc723tt66","folder":"profile_content_6556bfc723tt66","created_at":1498152050,"is_core":1,"tags":["front_page_content"],"place":"frontend","path":"resources\/units\/profile_content_6556bfc723tt66"},"user_login_55cd5cd4cdca":{"title":"Login pro","author":"Edo","site":"http:\/\/bootydev.co.uk","version":"1.0","type":"unit","description":"Super Login unit","have_setting":1,"image":"screenshot.png","slug":"user_login_55cd5cd4cdca","folder":"user_login_55cd5cd4cdca","created_at":1490088665,"is_core":1,"place":"frontend","tags":["user-unit"],"path":"resources\/units\/user_login_55cd5cd4cdca"},"77777777":{"title":"Amazing Header","author":"Sahak","site":"http:\/\/bootydev.co.uk","version":"1.0","type":"unit","description":"Super header unit","have_setting":1,"image":"screenshot.png","slug":"77777777","folder":"amazing_header_77777777","created_at":1490088665,"is_core":1,"place":"frontend","tags":["frontend_header","frontend"],"path":"resources\/units\/amazing_header_77777777"},"59f47ff6dab05":{"title":"CSS Studios","author":"Tawfik","site":"http:\/\/bootydev.co.uk","version":"1.0","type":"unit","description":"Testing unit","have_setting":1,"image":"screenshot.png","slug":"59f47ff6dab05","folder":"CSS_Studios_59f47ff6dab05","created_at":1509195767,"is_core":0,"place":"frontend","tags":["css_maker"],"path":"resources\/units\/CSS_Studios_59f47ff6dab05"}}
+{
+  "58db8f2896666": {
+    "title": "Classify Core",
+    "self_type": "units",
+    "plugin": "sahak.avatar\/avatar",
+    "main_type": "buttons",
+    "type": "general_fields",
+    "enabled": "true",
+    "have_settings": 1,
+    "author": "Sahak",
+    "main_file": "tpl.blade.php",
+    "settings": "settings.blade.php",
+    "slug": "58db8f2896666",
+    "folder": "classify_core_58db8f2896666",
+    "created_at": 1490784040,
+    "is_core": 0,
+    "place": "backend",
+    "path": "resources\/units\/classify_core_58db8f2896666"
+  },
+  "6556bfc723af75": {
+    "title": "Landing Page",
+    "type": "unit",
+    "enabled": "true",
+    "have_settings": 1,
+    "author": "Sahak",
+    "main_file": "tpl.blade.php",
+    "settings": "settings.blade.php",
+    "slug": "6556bfc723af75",
+    "folder": "landing_page_6556bfc723af75",
+    "created_at": 1498152050,
+    "is_core": 1,
+    "tags": [
+      "front_page_content"
+    ],
+    "place": "frontend",
+    "path": "resources\/units\/landing_page_6556bfc723af75"
+  },
+  "6556bfc723af88": {
+    "title": "Medicio",
+    "type": "unit",
+    "enabled": "true",
+    "have_settings": 1,
+    "author": "Sahak",
+    "main_file": "tpl.blade.php",
+    "settings": "settings.blade.php",
+    "slug": "6556bfc723af88",
+    "folder": "medicio_6556bfc723af88",
+    "created_at": 1498152050,
+    "is_core": 1,
+    "tags": [
+      "front_page_content"
+    ],
+    "place": "frontend",
+    "path": "resources\/units\/medicio_6556bfc723af88"
+  },
+  "7564i2d9858ae": {
+    "title": "Medicio Header",
+    "author": "Sahak",
+    "site": "http:\/\/bootydev.co.uk",
+    "version": "1.0",
+    "type": "unit",
+    "description": "Super header unit",
+    "have_setting": 1,
+    "image": "screenshot.png",
+    "slug": "7564i2d9858ae",
+    "folder": "medicio_header_7564i2d9858ae",
+    "created_at": 1490088665,
+    "is_core": 1,
+    "place": "frontend",
+    "tags": [
+      "frontend_header",
+      "frontend"
+    ],
+    "path": "resources\/units\/medicio_header_7564i2d9858ae"
+  },
+  "5445f2d9858ae": {
+    "title": "Medicio  Footer",
+    "author": "Sahak",
+    "site": "http:\/\/bootydev.co.uk",
+    "version": "1.0",
+    "type": "unit",
+    "description": "Super Footer unit",
+    "have_setting": 1,
+    "image": "screenshot.png",
+    "slug": "5445f2d9858ae",
+    "folder": "medicio_footer_5445f2d9858ae",
+    "created_at": 1490088665,
+    "is_core": 1,
+    "place": "frontend",
+    "tags": [
+      "frontend_footer",
+      "frontend"
+    ],
+    "path": "resources\/units\/medicio_footer_5445f2d9858ae"
+  },
+  "9999f2d9858ae": {
+    "title": "Default Frontend Header",
+    "author": "Sahak",
+    "site": "http:\/\/bootydev.co.uk",
+    "version": "1.0",
+    "type": "unit",
+    "description": "Super header unit",
+    "have_setting": 1,
+    "image": "screenshot.png",
+    "slug": "9999f2d9858ae",
+    "folder": "frontend_header_9999f2d9858ae",
+    "created_at": 1490088665,
+    "is_core": 1,
+    "place": "frontend",
+    "tags": [
+      "frontend_header",
+      "frontend"
+    ],
+    "path": "resources\/units\/frontend_header_9999f2d9858ae"
+  },
+  "4554f2d9858ae": {
+    "title": "Default Frontend Footer",
+    "author": "Sahak",
+    "site": "http:\/\/bootydev.co.uk",
+    "version": "1.0",
+    "type": "unit",
+    "description": "Super Footer unit",
+    "have_setting": 1,
+    "image": "screenshot.png",
+    "slug": "4554f2d9858ae",
+    "folder": "frontend_footer_4554f2d9858ae",
+    "created_at": 1490088665,
+    "is_core": 1,
+    "place": "frontend",
+    "tags": [
+      "frontend_footer",
+      "frontend"
+    ],
+    "path": "resources\/units\/frontend_footer_4554f2d9858ae"
+  },
+  "58d0f2d9858ae": {
+    "title": "Default Backend Header Plus",
+    "author": "Edo",
+    "site": "http:\/\/bootydev.co.uk",
+    "version": "1.0",
+    "self_type": "units",
+    "type": "header",
+    "description": "Super header template",
+    "have_setting": 1,
+    "image": "screenshot.png",
+    "slug": "58d0f2d9858ae",
+    "folder": "backend_header_58d0f2d9858ae",
+    "created_at": 1490088665,
+    "is_core": 0,
+    "place": "backend",
+    "tags": [
+      "backend_header",
+      "backend"
+    ],
+    "path": "resources\/units\/backend_header_58d0f2d9858ae"
+  },
+  "58d166ae1246f": {
+    "title": "Default Left Bar",
+    "author": "Edo",
+    "site": "http:\/\/bootydev.co.uk",
+    "version": "1.0",
+    "self_type": "units",
+    "description": "Super Left Bar template",
+    "have_setting": 1,
+    "image": "screenshot.png",
+    "slug": "58d166ae1246f",
+    "folder": "left_bar_58d166ae1246f",
+    "created_at": 1490118318,
+    "is_core": 0,
+    "place": "backend",
+    "path": "resources\/units\/left_bar_58d166ae1246f",
+    "tags": [
+      "backend",
+      "left_bar"
+    ]
+  },
+  "versions_check": {
+    "title": "Versions check",
+    "type": "unit",
+    "enabled": "true",
+    "have_settings": 1,
+    "author": "Edo",
+    "main_file": "tpl.blade.php",
+    "settings": "settings.blade.php",
+    "slug": "versions_check",
+    "folder": "versions_check",
+    "created_at": 1498152050,
+    "is_core": 1,
+    "tags": [
+      "front_page_content"
+    ],
+    "place": "frontend",
+    "path": "resources\/units\/versions_check"
+  },
+  "2345f2d9858ae": {
+    "title": "Profile sidebar pro",
+    "author": "Sahak",
+    "site": "http:\/\/bootydev.co.uk",
+    "version": "1.0",
+    "type": "unit",
+    "description": "Super  unit",
+    "have_setting": 1,
+    "image": "screenshot.png",
+    "slug": "2345f2d9858ae",
+    "folder": "profile_sidebar_2345f2d9858ae",
+    "created_at": 1490088665,
+    "is_core": 1,
+    "place": "frontend",
+    "tags": [
+      "frontend_sidebar",
+      "frontend"
+    ],
+    "path": "resources\/units\/profile_sidebar_2345f2d9858ae"
+  },
+  "frontend_sidebar_3434343434": {
+    "title": "Front sidebar pro",
+    "author": "Edo",
+    "site": "http:\/\/bootydev.co.uk",
+    "version": "1.0",
+    "type": "unit",
+    "description": "Super  sidebar",
+    "have_setting": 1,
+    "image": "screenshot.png",
+    "slug": "frontend_sidebar_3434343434",
+    "folder": "frontend_sidebar_3434343434",
+    "created_at": 1490088665,
+    "is_core": 1,
+    "place": "frontend",
+    "tags": [
+      "frontend_sidebar",
+      "frontend"
+    ],
+    "path": "resources\/units\/frontend_sidebar_3434343434"
+  },
+  "6556bfc723tt66": {
+    "title": "Profile content pro",
+    "type": "unit",
+    "enabled": "true",
+    "have_settings": 1,
+    "author": "Sahak",
+    "main_file": "tpl.blade.php",
+    "settings": "settings.blade.php",
+    "slug": "6556bfc723tt66",
+    "folder": "profile_content_6556bfc723tt66",
+    "created_at": 1498152050,
+    "is_core": 1,
+    "tags": [
+      "front_page_content"
+    ],
+    "place": "frontend",
+    "path": "resources\/units\/profile_content_6556bfc723tt66"
+  },
+  "77777777": {
+    "title": "Amazing Header",
+    "author": "Sahak",
+    "site": "http:\/\/bootydev.co.uk",
+    "version": "1.0",
+    "type": "unit",
+    "description": "Super header unit",
+    "have_setting": 1,
+    "image": "screenshot.png",
+    "slug": "77777777",
+    "folder": "amazing_header_77777777",
+    "created_at": 1490088665,
+    "is_core": 1,
+    "place": "frontend",
+    "tags": [
+      "frontend_header",
+      "frontend"
+    ],
+    "path": "resources\/units\/amazing_header_77777777"
+  },
+  "all_post": {
+    "title": "All Posts",
+    "author": "Edo",
+    "site": "http:\/\/bootydev.co.uk",
+    "version": "1.0",
+    "type": "unit",
+    "description": "all posts unit",
+    "have_setting": 1,
+    "image": "screenshot.png",
+    "slug": "all_post",
+    "folder": "all_post",
+    "created_at": 1490088665,
+    "is_core": 1,
+    "place": "frontend",
+    "tags": [
+      "all_posts",
+      "frontend"
+    ],
+    "path": "app\/Plugins\/vendor\/terakyan\/blog-hook\/src\/Config\/Gears\/FrontGears\/Units\/all_post"
+  },
+  "single_post": {
+    "title": "Single Post",
+    "author": "Edo",
+    "site": "http:\/\/bootydev.co.uk",
+    "version": "1.0",
+    "type": "unit",
+    "description": "single post unit",
+    "have_setting": 1,
+    "image": "screenshot.png",
+    "slug": "single_post",
+    "folder": "single_post",
+    "created_at": 1490088665,
+    "is_core": 1,
+    "place": "frontend",
+    "example": "demo",
+    "tags": [
+      "single_post",
+      "frontend"
+    ],
+    "path": "app\/Plugins\/vendor\/terakyan\/blog-hook\/src\/Config\/Gears\/FrontGears\/Units\/single_post"
+  },
+  "blog_short_desc_field": {
+    "title": "Short Description Field",
+    "author": "Edo",
+    "site": "http:\/\/bootydev.co.uk",
+    "version": "1.0",
+    "type": "unit",
+    "description": "Short Description Field",
+    "have_setting": 1,
+    "image": "screenshot.png",
+    "slug": "blog_short_desc_field",
+    "folder": "blog_short_desc_field",
+    "created_at": 1490088665,
+    "is_core": 1,
+    "place": "frontend",
+    "fields": [
+      "short_desc",
+      "tags"
+    ],
+    "tags": [
+      "blog_field",
+      "frontend"
+    ],
+    "path": "app\/Plugins\/vendor\/terakyan\/blog-hook\/src\/Config\/Gears\/FrontGears\/Units\/blog_short_desc_field"
+  },
+  "backend_footer" : {
+    "title": "Default Backend Footer",
+    "author": "Edo",
+    "site": "http:\/\/bootydev.co.uk",
+    "version": "1.0",
+    "self_type": "units",
+    "type": "units",
+    "description": "Super footer template",
+    "have_setting": 1,
+    "image": "screenshot.png",
+    "slug": "backend_footer",
+    "folder": "backend_footer",
+    "created_at": 1490088665,
+    "is_core": 0,
+    "place": "backend",
+    "tags": ["backend_footer","backend"],
+    "path": "resources\/units\/backend_footer"
+  },
+  "5a040d77ee9bc": {
+    "title": "Universal Dashboard Header",
+    "author": "Tawfik",
+    "site": "http:\/\/bootydev.co.uk",
+    "version": "1.0",
+    "type": "unit",
+    "description": "Testing unit",
+    "have_setting": 1,
+    "image": "screenshot.png",
+    "slug": "5a040d77ee9bc",
+    "folder": "UniversalDashboardHeader_5a040d77ee9bc",
+    "created_at": 1510215032,
+    "is_core": 0,
+    "place": "frontend",
+    "tags": [
+      "backend_header",
+      "backend"
+    ],
+    "path": "resources\/units\/UniversalDashboardHeader_5a040d77ee9bc"
+  },
+  "user_menu_backend" : {
+  "title": "User Menu Backend",
+  "author": "Edo",
+  "site": "http:\/\/bootydev.co.uk",
+  "version": "1.0",
+  "type": "unit",
+  "description": "User menu unit",
+  "have_setting": 1,
+  "image": "screenshot.png",
+  "slug": "user_menu_backend",
+  "folder": "user_menu_backend",
+  "created_at": 1490088665,
+  "is_core": 1,
+  "place": "backend",
+  "tags": ["backend","user-unit"],
+  "path": "resources\/units\/user_menu_backend"
+}
+}

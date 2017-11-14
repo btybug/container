@@ -25,18 +25,6 @@
   "options": [],
   "active": true,
   "example": "demo",
-  "tags" : ["backend"],
-  "path": "resources\/views\/ContentLayouts\/default_page_section",
-  "placeholders" : {
-    "left_bar" : {
-      "self_type" : "unit",
-      "data-type" : "left_bar",
-      "title":"Left bar"
-    },
-    "right_bar" : {
-      "self_type" : "unit",
-      "data-type" : "right_bar",
-      "title":"Right bar"
-    }
-  }
+  "tags" : ["backend","back_pages_layout"],
+  "path": "resources\/views\/ContentLayouts\/default_page_section"
 }

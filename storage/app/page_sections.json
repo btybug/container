@@ -1,392 +1,8 @@
 {
-  "58ff3b3617954": {
-    "title": "Dummy Page Section",
-    "author": "Ara",
-    "self_type": "page_sections",
-    "type": "general",
-    "version": 1,
-    "main_file": "main.blade.php",
-    "descrition": "Ara 2017 page section",
-    "layout": "main",
-    "css": [
-      "style.css",
-      "setting-body.css"
-    ],
-    "js": [
-      "js.js"
-    ],
-    "settings": {
-      "file": "settings",
-      "css": [
-        "style.css"
-      ],
-      "js": [
-        "js.js"
-      ]
-    },
-    "folder": "empty_page_section_front_58ff3b3617954",
-    "active": false,
-    "slug": "58ff3b3617954",
-    "created_at": 1493121846,
-    "is_core": 0,
-    "place": "frontend",
-    "path": "resources\/views\/ContentLayouts\/empty_page_section_front_58ff3b3617954"
-  },
-  "59087a218d1eb": {
-    "title": "Page Section with many columns",
-    "author": "Diana",
-    "self_type": "page_sections",
-    "type": "general",
-    "version": 1,
-    "descrition": "Page Section with many columns",
-    "layout": "main",
-    "css": [
-      "style.css",
-      "setting-body.css"
-    ],
-    "js": [
-      "js.js"
-    ],
-    "settings": {
-      "file": "settings",
-      "css": [
-        "style.css"
-      ],
-      "js": [
-        "js.js"
-      ]
-    },
-    "folder": "page_section_many_cols_59087a218d1eb",
-    "active": false,
-    "slug": "59087a218d1eb",
-    "created_at": 1493727777,
-    "is_core": 0,
-    "place": "frontend",
-    "path": "resources\/views\/ContentLayouts\/page_section_many_cols_59087a218d1eb"
-  },
-  "59085b9b20526": {
-    "title": "Page Section 3 col",
-    "author": "Ara",
-    "self_type": "page_sections",
-    "type": "general",
-    "version": 1,
-    "descrition": "Ara 2017 page section",
-    "layout": "main",
-    "css": [
-      "style.css",
-      "setting-body.css"
-    ],
-    "js": [
-      "js.js"
-    ],
-    "settings": {
-      "file": "settings",
-      "css": [
-        "style.css"
-      ],
-      "js": [
-        "js.js"
-      ]
-    },
-     "placeholders" : {
-      "sidebar_place_holder_left" : {
-          "self_type" : "sections",
-          "data-type" : "vertical",
-		  "title":"Left Sidebar"
-      },
-      "sidebar_place_holder_right" : {
-        "self_type" : "sections",
-        "data-type" : "horizontal",
-		"title":"Right Sidebar" 
-    }
-  },
-    "folder": "page_section_3_cols_59085b9b20526",
-    "active": false,
-    "slug": "59085b9b20526",
-    "created_at": 1493719963,
-    "is_core": 0,
-    "place": "frontend",
-    "path": "resources\/views\/ContentLayouts\/page_section_3_cols_59085b9b20526"
-  },
-  "59085b9b20555":{
-    "title": "Auto Include",
-    "author": "Ara",
-    "self_type": "page_sections",
-    "autoinclude":1,
-    "autoinclude_main":"59085b9b20555.59085b9b57983",
-    "type": "general",
-    "version": 1,
-    "descrition": "Sahak 2017 page section",
-    "layout": "main",
-    "css": [
-      "style.css",
-      "setting-body.css"
-    ],
-    "js": [
-      "js.js"
-    ],
-    "settings": {
-      "file": "settings",
-      "css": [
-        "style.css"
-      ],
-      "js": [
-        "js.js"
-      ]
-    },
-    "folder": "autoinclude_59085b9b20555",
-    "active": false,
-    "slug": "59085b9b20555",
-    "created_at": 1493719963,
-    "is_core": 0,
-    "place": "frontend",
-    "path": "resources\/views\/ContentLayouts\/autoinclude_59085b9b20555"
-  },
-  "59085b9b20666": {
-    "title": "Real Auto include Layout",
-    "author": "Sahak",
-    "self_type": "page_sections",
-    "autoinclude": true,
-    "autoinclude_main": "59085b9b20666.5939a6d07666",
-    "type": "general",
-    "version": 1,
-    "descrition": "Sahak 2017 page section",
-    "layout": "main",
-    "placeholders": {
-      "real_1_left_sidebar": {
-        "self_type": "sections",
-        "data-type": "vertical",
-        "title": "Left Sidebar"
-      },
-      "real_1_right_sidebar": {
-        "self_type": "sections",
-        "data-type": "horizontal",
-        "title": "Right Sidebar"
-      }
-    },
-    "css": [
-      "style.css",
-      "setting-body.css"
-    ],
-    "js": [
-      "js.js"
-    ],
-    "settings": {
-      "file": "settings",
-      "css": [
-        "style.css"
-      ],
-      "js": [
-        "js.js"
-      ]
-    },
-    "folder": "real_1_59085b9b20666",
-    "active": false,
-    "slug": "59085b9b20666",
-    "created_at": 1493719963,
-    "is_core": 0,
-    "place": "frontend",
-    "path": "resources\/views\/ContentLayouts\/real_1_59085b9b20666"
-  },
-  "59085b9b20777": {
-    "title":"Real Auto include Layout (2)",
-    "author": "Sahak",
-    "self_type": "page_sections",
-    "autoinclude": true,
-    "autoinclude_main":"59085b9b20777.5939a6d07777",
-    "type": "general",
-    "version": 1,
-    "descrition": "Sahak 2017 page section",
-    "layout": "main",
-    "placeholders" : {
-      "real_2_left_sidebar" : {
-        "self_type" : "sections",
-        "data-type" : "vertical",
-        "title":"Left Sidebar"
-      },
-      "real_2_right_sidebar" : {
-        "self_type" : "sections",
-        "data-type" : "vertical",
-        "title":"Right Sidebar"
-      },
-      "real_2_horizontal_1" : {
-        "self_type" : "sections",
-        "data-type" : "horizontal",
-        "title":"Horizontal 1 Sidebar"
-      },
-      "real_2_horizontal_2" : {
-        "self_type" : "sections",
-        "data-type" : "horizontal",
-        "title":"Horizontal 2 Sidebar"
-      }
-    },
-    "css": [
-      "style.css",
-      "setting-body.css"
-    ],
-    "js": [
-      "js.js"
-    ],
-    "settings": {
-      "file": "settings",
-      "css": [
-        "style.css"
-      ],
-      "js": [
-        "js.js"
-      ]
-    },
-    "folder": "real_2_59085b9b20777",
-    "active": false,
-    "slug": "59085b9b20777",
-    "created_at": 1493719963,
-    "is_core": 0,
-    "place": "frontend",
-    "path": "resources\/views\/ContentLayouts\/real_2_59085b9b20777"
-  },
-  "5913193f5c630": {
-    "title": "Page layout with 2 sidebar",
-    "author": "Ashok",
-    "self_type": "page_sections",
-    "type": "general",
-    "version": 1,
-    "descrition": "Page layout with 2 sidebar",
-    "layout": "main",
-    "css": [
-      "style.css",
-      "setting-body.css"
-    ],
-    "js": [
-      "js.js"
-    ],
-    "settings": {
-      "file": "settings",
-      "css": [
-        "style.css"
-      ],
-      "js": [
-        "js.js"
-      ]
-    },
-    "active": false,
-    "slug": "5913193f5c630",
-    "created_at": 1494423871,
-    "is_core": 0,
-    "place": "frontend",
-    "folder": "pagelayout_5913193f5c630",
-    "path": "resources\/views\/ContentLayouts\/pagelayout_5913193f5c630"
-  },
-  "5915b955f198f": {
-    "title": "Demo Page Layout",
-    "author": "Ashok",
-    "self_type": "page_sections",
-    "type": "general",
-    "version": 1,
-    "descrition": "Demo page section",
-    "layout": "main",
-    "example": "demo",
-    "css": [
-      "style.css",
-      "setting-body.css"
-    ],
-    "js": [
-      "js.js"
-    ],
-    "settings": {
-      "file": "settings",
-      "css": [
-        "style.css"
-      ],
-      "js": [
-        "js.js"
-      ]
-    },
-    "active": false,
-    "slug": "5915b955f198f",
-    "created_at": 1494595926,
-    "is_core": 0,
-    "place": "frontend",
-    "folder": "pagelayoutdemo_5915b955f198f",
-    "path": "resources\/views\/ContentLayouts\/pagelayoutdemo_5915b955f198f"
-  },
-  "59281255d7ea2": {
-    "title": "Page layout by studio new withcss",
-    "author": "Ashok",
-    "self_type": "page_sections",
-    "type": "general",
-    "version": 1,
-    "descrition": "Page layout by studio new 2",
-    "layout": "main",
-    "example": "demo",
-    "css": [
-      "style.css"
-    ],
-    "js": [
-      "js.js"
-    ],
-    "settings": {
-      "file": "settings",
-      "css": [
-        "style.css"
-      ],
-      "js": [
-        "js.js"
-      ]
-    },
-    "active": false,
-    "slug": "59281255d7ea2",
-    "created_at": 1495798357,
-    "is_core": 0,
-    "place": "frontend",
-    "folder": "pagelayout_59281255d7ea2",
-    "path": "resources\/views\/ContentLayouts\/pagelayout_59281255d7ea2"
-  },
-    "51085b9b20521": {
-    "title": "Page Layout new structure",
-    "author": "Ara",
-    "self_type": "page_sections",
-    "type": "general",
-    "version": 1,
-    "descrition": "Ara 2017 page layout",
-    "layout": "main",
-    "css": [
-      "style.css",
-      "setting-body.css"
-    ],
-    "js": [
-      "js.js"
-    ],
-    "settings": {
-      "file": "settings",
-      "css": [
-        "style.css"
-      ],
-      "js": [
-        "js.js"
-      ]
-    },
-    "placeholders" : {
-      "sidebar_place_holder_left" : {
-        "self_type" : "sections",
-        "data-type" : "vertical"
-      },
-      "sidebar_place_holder_right" : {
-        "self_type" : "sections",
-        "data-type" : "horizontal"
-      }
-    },
-    "folder": "page_layout_new_structure_51085b9b20521",
-    "active": false,
-    "slug": "51085b9b20521",
-    "created_at": 1493719963,
-    "is_core": 0,
-    "place": "frontend",
-    "path": "resources\/views\/ContentLayouts\/page_layout_new_structure_51085b9b20521"
-  },
-  "default_page_section" : {
+  "default_page_section": {
     "title": "Default Backend Layout",
     "author": "Edo",
-    "self_type" : "layouts",
+    "self_type": "layouts",
     "version": 1,
     "descrition": "Default Page Section description",
     "layout": "tpl",
@@ -410,141 +26,12 @@
     "options": [],
     "active": true,
     "example": "demo",
-    "tags" : ["backend"],
-    "path": "resources\/views\/ContentLayouts\/default_page_section",
-    "placeholders" : {
-      "left_bar" : {
-        "self_type" : "unit",
-        "data-type" : "v-bar",
-        "title":"Left bar"
-      },
-      "right_bar" : {
-        "self_type" : "unit",
-        "data-type" : "v-bar",
-        "title":"Right bar"
-      }
-    }
+    "tags": [
+      "backend","back_pages_layout"
+    ],
+    "path": "resources\/views\/ContentLayouts\/default_page_section"
   },
-  "backend_layout_plus" : {
-    "title": "Backend Layout +",
-    "author": "Edo",
-    "self_type" : "layouts",
-    "version": 1,
-    "descrition": "Backend layout description",
-    "layout": "tpl",
-    "css": [
-      "style.css",
-      "font-awesome\/css\/font-awesome.min.css"
-    ],
-    "js": [
-      "js.js"
-    ],
-    "settings": {
-      "file": "settings",
-      "css": [
-        "style.css"
-      ],
-      "js": []
-    },
-    "slug": "backend_layout_plus",
-    "created_at": 1476346979,
-    "folder": "backend_layout_plus",
-    "options": [],
-    "active": true,
-    "example": "demo",
-    "tags" : ["backend"],
-    "path": "resources\/views\/ContentLayouts\/backend_layout_plus",
-    "placeholders" : {
-      "left_bar" : {
-        "self_type" : "unit",
-        "data-type" : "v-bar",
-        "title":"Left bar"
-      },
-      "extra_area_header" : {
-        "self_type" : "unit",
-        "data-type" : "h-bar",
-        "title":"Extra top bar"
-      }
-    }
-  },
-  "6665b9b20526": {
-    "title": "Landing page",
-    "author": "Ara",
-    "type": "layout",
-    "version": 1,
-    "descrition": "Hom page layout",
-    "layout": "main",
-    "css": [
-      "style.css",
-      "setting-body.css"
-    ],
-    "js": [
-      "js.js"
-    ],
-    "settings": {
-      "file": "settings",
-      "css": [
-        "style.css"
-      ],
-      "js": [
-        "js.js"
-      ]
-    },
-    "folder": "Landing_page_6665b9b20526",
-    "active": false,
-    "slug": "6665b9b20526",
-    "created_at": 1493719963,
-    "is_core": 0,
-    "tags":["front_pages_layout"],
-    "place": "frontend",
-    "path": "resources\/views\/ContentLayouts\/Landing_page_6665b9b20526"
-  },
-  "front_layout" :{
-    "title": "Frontend layout 3 areas",
-    "author": "Edo",
-    "self_type": "page_sections",
-    "type": "general",
-    "version": 1,
-    "descrition": "Frontend layout 3 areas",
-    "layout": "main",
-    "css": [
-      "style.css",
-      "setting-body.css"
-    ],
-    "js": [
-      "js.js"
-    ],
-    "settings": {
-      "file": "settings",
-      "css": [
-        "style.css"
-      ],
-      "js": [
-        "js.js"
-      ]
-    },
-    "placeholders": {
-      "sidebar_place_holder_left": {
-        "type": "unit",
-        "tag": "frontend_sidebar",
-        "title": "Left Sidebar"
-      },
-      "sidebar_place_holder_right": {
-        "type": "unit",
-        "tag": "frontend_sidebar",
-        "title": "Right Sidebar"
-      }
-    },
-    "folder": "front_layout",
-    "active": false,
-    "tags":["front_pages_layout"],
-    "slug": "front_layout",
-    "created_at": 1493719963,
-    "is_core": 0,
-    "place": "frontend",
-    "path": "resources\/views\/ContentLayouts\/front_layout"
-  },
-  "front_layout_with_2_col" : {
+  "front_layout_with_2_col": {
     "title": "Frontend layout 2 areas",
     "author": "Edo",
     "self_type": "page_sections",
@@ -577,11 +64,50 @@
     },
     "folder": "front_layout_with_2_col",
     "active": false,
-    "tags":["front_pages_layout"],
+    "tags": [
+      "front_pages_layout"
+    ],
     "slug": "front_layout_with_2_col",
     "created_at": 1493719963,
     "is_core": 0,
     "place": "frontend",
     "path": "resources\/views\/ContentLayouts\/front_layout_with_2_col"
+  },
+  "backend_two_cols" : {
+    "title": "Two Columns Backend Layout",
+    "author": "Vahagn",
+    "self_type" : "layouts",
+    "version": 1,
+    "descrition": "Two Columns Page layout description",
+    "layout": "tpl",
+    "css": [
+      "style.css",
+      "font-awesome\/css\/font-awesome.min.css"
+    ],
+    "js": [
+      "js.js"
+    ],
+    "settings": {
+      "file": "settings",
+      "css": [
+        "style.css"
+      ],
+      "js": []
+    },
+    "slug": "backend_two_cols",
+    "created_at": 1476346979,
+    "folder": "backend_two_cols",
+    "options": [],
+    "active": true,
+    "example": "demo",
+    "tags" : ["backend","back_pages_layout"],
+    "path": "resources\/views\/ContentLayouts\/backend_two_cols",
+    "placeholders" : {
+      "left_bar" : {
+        "type" : "unit",
+        "tag" : "left_bar",
+        "title":"Left bar"
+      }
+    }
   }
 }

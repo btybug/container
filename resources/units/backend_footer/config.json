@@ -1,0 +1,18 @@
+{
+  "title": "Default Backend Footer",
+  "author": "Edo",
+  "site": "http:\/\/bootydev.co.uk",
+  "version": "1.0",
+  "self_type": "units",
+  "type": "units",
+  "description": "Super footer template",
+  "have_setting": 1,
+  "image": "screenshot.png",
+  "slug": "backend_footer",
+  "folder": "backend_footer",
+  "created_at": 1490088665,
+  "is_core": 0,
+  "place": "backend",
+  "tags": ["backend_footer","backend"],
+  "path": "resources\/units\/backend_footer"
+}

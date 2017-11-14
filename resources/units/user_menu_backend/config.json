@@ -1,0 +1,17 @@
+{
+  "title": "User Menu Backend",
+  "author": "Edo",
+  "site": "http:\/\/bootydev.co.uk",
+  "version": "1.0",
+  "type": "unit",
+  "description": "User menu unit",
+  "have_setting": 1,
+  "image": "screenshot.png",
+  "slug": "user_menu_backend",
+  "folder": "user_menu_backend",
+  "created_at": 1490088665,
+  "is_core": 1,
+  "place": "backend",
+  "tags": ["backend","user-unit"],
+  "path": "resources\/units\/user_menu_backend"
+}

@@ -12,13 +12,28 @@
         "icon": "fa fa-angle-right",
         "is_core": "yes"
       },{
+        "title": "Apps",
+        "custom-link": "\/admin\/uploads\/apps",
+        "icon": "fa fa-angle-right",
+        "is_core": "yes"
+      },{
         "title": "Gears",
         "custom-link": "\/admin\/uploads/gears",
         "icon": "fa fa-angle-right",
         "is_core": "yes"
       },{
+        "title": "Layouts",
+        "custom-link": "\/admin\/uploads/layouts",
+        "icon": "fa fa-angle-right",
+        "is_core": "yes"
+      },{
         "title": "Assets",
         "custom-link": "\/admin\/uploads\/assets",
+        "icon": "fa fa-angle-right",
+        "is_core": "yes"
+      },{
+        "title": "Market",
+        "custom-link": "\/admin\/uploads\/market",
         "icon": "fa fa-angle-right",
         "is_core": "yes"
       }
@@ -35,7 +50,7 @@
         "icon": "fa fa-angle-right",
         "is_core": "yes"
       },{
-        "title": "Backend",
+        "title": "Settings",
         "custom-link": "\/admin\/console\/backend",
         "icon": "fa fa-angle-right",
         "is_core": "yes"
@@ -85,34 +100,29 @@
       }
     ]
   },{
-    "title" : "Manage",
+    "title" : "Front Site",
     "custom-link" : "#",
     "icon" : "fa fa-hand-lizard-o",
     "is_core" : "yes",
     "children": [
-      {
-        "title": "Front-End",
-        "custom-link": "\/admin\/manage\/frontend\/pages",
-        "icon": "fa fa-angle-right",
-        "is_core": "yes"
-      },{
+     {
         "title": "Structure",
-        "custom-link": "\/admin\/manage\/structure",
+        "custom-link": "\/admin\/front-site\/structure",
         "icon": "fa fa-angle-right",
         "is_core": "yes"
       },{
-        "title": "System",
-        "custom-link": "\/admin\/manage\/system",
-        "icon": "fa fa-angle-right",
+        "title": "Settings",
+        "custom-link": "\/admin\/front-site\/settings",
+        "icon": "fa fa-cog",
         "is_core": "yes"
       },{
         "title": "Events",
-        "custom-link": "\/admin\/manage\/event",
+        "custom-link": "\/admin\/front-site\/event",
         "icon": "fa fa-angle-right",
         "is_core": "yes"
       },{
         "title": "Emails",
-        "custom-link": "\/admin\/manage\/emails",
+        "custom-link": "\/admin\/front-site\/emails",
         "icon": "fa fa-angle-right",
         "is_core": "yes"
       }
@@ -124,14 +134,8 @@
     "is_core" : "yes",
     "children": [
       {
-        "title": "Settings",
-        "custom-link": "\/admin\/framework\/settings",
-        "icon": "fa fa-angle-right",
-        "is_core": "yes"
-      },
-      {
-        "title": "Assets",
-        "custom-link": "\/admin\/framework",
+        "title": "Css",
+        "custom-link": "\/admin\/framework\/css",
         "icon": "fa fa-angle-right",
         "is_core": "yes"
       }

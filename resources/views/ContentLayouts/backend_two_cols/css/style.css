@@ -1,0 +1,21 @@
+.middle-wrapper{
+    margin: 0;
+    padding: 0;
+}
+.demo.main-wrapper_custm{
+    height: auto;
+    width: 100%;
+    border: 2px solid;
+    border-style: dashed;
+}
+.main-wrapper_custm{
+    height: 100%;
+    width: 100%;
+}
+.demo .main_content_container{
+    width: 100%;
+    min-height: 500px;
+    border: 3px solid;
+    margin: 7px;
+    border-style: dashed;
+}

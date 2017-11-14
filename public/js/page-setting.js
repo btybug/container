@@ -174,7 +174,7 @@ $(function () {
     });
 
     $('body').on('change', 'input[name=backend_page_section]', function () {
-        var button = $(this).prev();
+        var button = $('button[data-key='+$(this).attr('data-name')+']');
         layoutData($(this).val(), button.attr('data-action'), true);
     });
     //

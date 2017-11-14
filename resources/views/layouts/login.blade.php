@@ -12,9 +12,10 @@
     <meta content="" name="description"/>
     <meta content="" name="author"/>
 
-    <link rel="stylesheet" href="{{ url("css/bootstrap/css/bootstrap.min.css") }}" />
-    <link rel="stylesheet" href="{{ url("css/font-awesome/css/font-awesome.min.css") }}" />
-    <link rel="stylesheet" href="{{ url("js/jquery-ui/jquery-ui.min.css") }}" />
+    <link rel="stylesheet" href="{{ url("public/css/bootstrap/css/bootstrap.min.css") }}" />
+    <link rel="stylesheet" href="{{ url("public/css/font-awesome/css/font-awesome.min.css") }}" />
+    <link rel="stylesheet" href="{{ url("public/css/cms.css") }}" />
+    <link rel="stylesheet" href="{{ url("public/js/jquery-ui/jquery-ui.min.css") }}" />
 
 
 </head>
@@ -47,9 +48,9 @@
         @include('modal')
     </div>
 
-    <script src="{{ url("js/jquery-3.2.1.min.js") }}" type="text/javascript"></script>
-    <script src="{{ url("js/jquery-ui/jquery-ui.min.js") }}" type="text/javascript"></script>
-    <script src="{{ url("css/bootstrap/js/bootstrap.min.js") }}" type="text/javascript"></script>
+    <script src="{{ url("public/js/jquery-3.2.1.min.js") }}" type="text/javascript"></script>
+    <script src="{{ url("public/js/jquery-ui/jquery-ui.min.js") }}" type="text/javascript"></script>
+    <script src="{{ url("public/css/bootstrap/js/bootstrap.min.js") }}" type="text/javascript"></script>
     @yield('footer')
     @stack('javascript')
     {{--@if(Session::has('message_code') && Session::get('message_code') == 200)--}}
