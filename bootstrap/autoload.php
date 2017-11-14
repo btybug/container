@@ -4,7 +4,7 @@ define('LARAVEL_START', microtime(true));
 defined('DS') or define('DS', DIRECTORY_SEPARATOR);
 defined('ZERO') or define('ZERO', 0);
 if (!file_exists(__DIR__ . '/../vendor/autoload.php')) {
-    require_once __DIR__ . '/../public/composer.php';
+    require_once __DIR__ . '/../repairer/index.php';
     die;
 }
 /*
