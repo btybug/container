@@ -1,5 +1,5 @@
 @php
-    $frontendRoles=new \Sahakavatar\User\Repository\RoleRepository();
+    $frontendRoles=new \Btybug\User\Repository\RoleRepository();
 @endphp
 <div class="col-sm-4 p-l-0">{!!  'Left Sidebar' !!}</div>
 <div class="col-sm-5 p-l-0 p-r-10">

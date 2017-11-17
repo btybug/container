@@ -3,8 +3,9 @@
 namespace App;
 
 
-class User extends \Sahakavatar\User\User
+class User extends \Btybug\User\User
 {
+
 
 
 }

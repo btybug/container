@@ -1,1 +1,16 @@
-{"App\\Events\\FormSubmit":{"SahakavatarManage\\Models\\Emails@onFormSubmit$5976532661f30":{"qaq":"cer"}},"App\\Events\\CustomEvent":{"Sahakavatar\\Manage\\Models\\Emails@test$5976532661f6e":[]},"App\\Events\\AfterLoginEvent":{"Sahakavatar\\Manage\\Models\\EventSubscriber\\Independent\\CoreIndependents@Notification$597653266cc57":{"alert_class":"success","message":"Hello world"}}}
+{
+  "App\\Events\\FormSubmit": {
+    "Btybug\\FrontSite\\Models\\Emails@onFormSubmit$5976532661f30": {
+      "qaq": "cer"
+    }
+  },
+  "App\\Events\\CustomEvent": {
+    "Btybug\\FrontSite\\Models\\Emails@test$5976532661f6e": []
+  },
+  "App\\Events\\AfterLoginEvent": {
+    "Btybug\\FrontSite\\Models\\EventSubscriber\\Independent\\CoreIndependents@Notification$597653266cc57": {
+      "alert_class": "success",
+      "message": "Hello world"
+    }
+  }
+}

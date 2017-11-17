@@ -3,7 +3,7 @@
 namespace App\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
-use Sahakavatar\User\Http\Middleware\UserHasPermission;
+use Btybug\User\Http\Middleware\UserHasPermission;
 
 class Kernel extends HttpKernel
 {
@@ -35,8 +35,8 @@ class Kernel extends HttpKernel
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
             \App\Http\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
-            \Sahakavatar\Cms\Middleware\HomeShortcodeMiddleware::class,
-            \Sahakavatar\Cms\Middleware\CustomSCMiddleware::class,
+            \Btybug\btybug\Middleware\HomeShortcodeMiddleware::class,
+            \Btybug\btybug\Middleware\CustomSCMiddleware::class,
         ],
 
         'api' => [
@@ -59,10 +59,10 @@ class Kernel extends HttpKernel
         'can' => \Illuminate\Auth\Middleware\Authorize::class,
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
-        'admin' =>\Sahakavatar\Cms\Middleware\AuthenticateAdmin::class,
+        'admin' =>\Btybug\btybug\Middleware\AuthenticateAdmin::class,
         'userHasPerm' =>UserHasPermission::class,
-        'sessionTimout' =>\Sahakavatar\Cms\Middleware\SessionTimeout::class,
-        'system' =>\Sahakavatar\Cms\Middleware\SystemSettings::class,
-        'frontPermissions'=> \Sahakavatar\Cms\Middleware\FrontendPermissions::class,
+        'sessionTimout' =>\Btybug\btybug\Middleware\SessionTimeout::class,
+        'system' =>\Btybug\btybug\Middleware\SystemSettings::class,
+        'frontPermissions'=> \Btybug\btybug\Middleware\FrontendPermissions::class,
     ];
 }

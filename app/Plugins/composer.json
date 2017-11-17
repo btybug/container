@@ -1,6 +1,4 @@
 {
   "require": {
-    "terakyan/blog-hook": "dev-master",
-    "terakyan/css-maker": "dev-master"
   }
 }

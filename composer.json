@@ -16,7 +16,7 @@
         "laravel/tinker": "~1.0",
         "laravelcollective/html": "^5.4.0",
         "chumper/zipper": "1.0.x",
-        "sahak.avatar/cms": "dev-master"
+        "btybug/btybug": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

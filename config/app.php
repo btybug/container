@@ -174,8 +174,8 @@ return [
         /*
          * CMS Service Providers...
          */
-       Sahakavatar\Hook\HookServiceProvider::class,
-        Sahakavatar\Cms\Providers\CmsServiceProvider::class,
+        Btybug\Hook\HookServiceProvider::class,
+        Btybug\btybug\Providers\BtybugServiceProvider::class,
 
 
         /*
@@ -183,7 +183,7 @@ return [
          */
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
-         App\Providers\BroadcastServiceProvider::class,
+        App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
@@ -228,19 +228,20 @@ return [
         'Redis' => Illuminate\Support\Facades\Redis::class,
         'Request' => Illuminate\Support\Facades\Request::class,
         'Response' => Illuminate\Support\Facades\Response::class,
-        'Route' => Illuminate\Support\Facades\Route::class,
+//        'Route' => Illuminate\Support\Facades\Route::class,
         'Schema' => Illuminate\Support\Facades\Schema::class,
         'Session' => Illuminate\Support\Facades\Session::class,
         'Storage' => Illuminate\Support\Facades\Storage::class,
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        'Subscriber'=>\Sahakavatar\Manage\Models\EventSubscriber\EventSubscriber::class,
-        'Eventy' => \Sahakavatar\Hook\Facades\Hooks::class,
+        'Subscriber' => \Btybug\FrontSite\Models\EventSubscriber\EventSubscriber::class,
+        'Eventy' => \Btybug\Hook\Facades\Hooks::class,
 
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
         'HTML' => Collective\Html\HtmlFacade::class,
+        'Route' => \Btybug\btybug\Models\Route::class,
 //        'Zipper' => 'Chumper\Zipper\Zipper'
 
     ],
