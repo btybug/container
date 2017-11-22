@@ -2,7 +2,7 @@ $(function () {
     $("body").on("click", '.full-page-view', function () {
         var url = '/admin/manage/frontend/pages/live-settings';
         data = $('form').serialize() + '&id=' + $('#page').val();
-        if($(this).data("live") == "live_edit"){
+        if ($(this).data("live") == "live_edit") {
             data = data + '&live_edit=live_edit'
         }
         $.ajax({
@@ -174,7 +174,7 @@ $(function () {
     });
 
     $('body').on('change', 'input[name=backend_page_section]', function () {
-        var button = $('button[data-key='+$(this).attr('data-name')+']');
+        var button = $('button[data-key=' + $(this).attr('data-name') + ']');
         layoutData($(this).val(), button.attr('data-action'), true);
     });
     //

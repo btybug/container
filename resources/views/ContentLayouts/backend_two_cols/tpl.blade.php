@@ -1,4 +1,4 @@
-<div class="col-md-3"  style="background: black;">
+<div class="col-md-3 left-column"  style="background: black;">
     @if(isset($settings['placeholders']['left_bar']))
         {!! BBRenderUnits($settings['placeholders']['left_bar']) !!}
     @endif

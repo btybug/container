@@ -8,9 +8,7 @@ body, nav, article, a, ul, li, p, h1, h2, img, span, input, button
 button:focus, button:hover{
     outline: 0;
 }
-body{
-    background-color: #1c2b36;
-}
+
 .middle-wrapper{
     padding: 0;
 }
@@ -121,9 +119,7 @@ body{
     background-color: transparent!important;
     border: none;
 }
-body{
-    background-color: #0a0a0a;
-}
+
 #leftMenu ul.panel {
     background-color: white;
     max-height: 0;

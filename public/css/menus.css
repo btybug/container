@@ -1,0 +1,138 @@
+.bb-menu-container {
+    padding: 20px 0;
+    overflow: hidden; }
+.bb-menu-container .iconpicker-container {
+    display: none;
+    position: fixed;
+    z-index: 111111111; }
+.bb-menu-container .iconpicker-container .iconpicker-popover.popover.inline {
+    margin: 0 !important; }
+.bb-menu-container .ui-sortable-placeholder {
+    background: #fbf7d9;
+    visibility: visible !important;
+    margin-bottom: 6px; }
+.bb-menu-container .general-menu-settings {
+    display: none; }
+.bb-menu-container .bb-menu-settings-note {
+    padding: 5px 10px; }
+.bb-menu-container .bb-menu-settings-note small {
+    margin-right: 20px; }
+.bb-menu-container [data-display=show] .bb-what-to-show {
+    display: none; }
+.bb-menu-container .bb-what-to-show {
+    margin-left: 10px; }
+.bb-menu-container .bb-roles-list a {
+    text-decoration: none; }
+.bb-menu-container .bb-roles-list a button {
+    margin-left: 10px;
+    margin-right: 10px; }
+.bb-menu-container .bb-roles-list .list-group-item {
+    cursor: pointer; }
+.bb-menu-container .bb-roles-list .list-group-item:hover, .bb-menu-container .bb-roles-list .list-group-item.active {
+    background: #efefef;
+    color: #000; }
+.bb-menu-container ol {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+.bb-menu-container ol.bb-sortable-static .level-1 {
+    margin-left: 20px; }
+.bb-menu-container ol.bb-sortable-static .level-2 {
+    margin-left: 40px; }
+.bb-menu-container ol.bb-sortable-static .level-3 {
+    margin-left: 60px; }
+.bb-menu-container ol li.ui-draggable-dragging {
+    z-index: 999999;
+    width: calc(100% - 60px);
+    opacity: 0.9; }
+.bb-menu-container ol li.ui-draggable-dragging .bb-add-to-menu {
+    display: none; }
+.bb-menu-container ol.bb-sortable-static .bb-menu-actions .bb-menu-delete,
+.bb-menu-container ol.bb-sortable-static .bb-menu-actions .bb-menu-collapse:not(.group-expander) {
+    display: none; }
+.bb-menu-container ol.bb-sortable-static .bb-add-to-menu {
+    color: #a2a2a2;
+    background: #dedede;
+    width: 40px;
+    line-height: 30px;
+    margin-top: -5px;
+    margin-right: -10px;
+    text-align: center; }
+.bb-menu-container ol.bb-sortable-group > .ui-draggable-dragging {
+    width: calc(100% - 30px) !important; }
+.bb-menu-container ol ol:not(.bb-sortable-static) {
+    margin-left: 20px; }
+.bb-menu-container .bb-menu-item {
+    margin-bottom: 6px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px; }
+.bb-menu-container .bb-menu-item .bb-menu-item-body {
+    padding: 10px;
+    background: #fff;
+    border-radius: 0 0 4px 4px; }
+.bb-menu-container .bb-menu-item-title {
+    padding: 10px 15px;
+    color: #333;
+    background-color: #fafafa;
+    border-bottom: 1px solid #dcdcdc;
+    cursor: move;
+    border-radius: 4px 4px 0 0; }
+.bb-menu-container .bb-menu-item-title i {
+    width: 20px; }
+.bb-menu-container .bb-menu-item-title a.bb-menu-collapse {
+    display: table;
+    float: right;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: -10px;
+    margin-right: -15px;
+    background: #e8e8e8;
+    border-radius: 0 4px 4px 0;
+    margin-left: 15px;
+    color: #a0a0a0;
+    font-size: 20px; }
+.bb-menu-container .bb-menu-item-title a.bb-menu-delete {
+    color: rgba(208, 6, 6, 0.86); }
+.bb-menu-container .bb-menu-item-body {
+    display: none; }
+.bb-menu-container .bb-menu-area {
+    min-height: 50px;
+    position: relative; }
+.bb-menu-container .bb-menu-area .bb-menu-group-body .bb-sortable-static {
+    position: relative; }
+.bb-menu-container .bb-menu-area .bb-menu-group-body .bb-sortable-static:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1; }
+.bb-menu-container .bb-menu-area .panel {
+    margin-bottom: 6px; }
+.bb-menu-container .bb-menu-area .bb-add-to-menu {
+    display: none; }
+.bb-menu-container .bb-menu-area:empty {
+    border: 1px dashed #c0c0c0; }
+.bb-menu-container .bb-menu-area:empty:after {
+    content: "Drop Menu Items Here";
+    color: #bdbdbd;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 50px; }
+.bb-menu-container .bb-menu-area:not(:empty) {
+    padding: 10px; }
+.bb-menu-container .panel-heading.menu-panel {
+    display: inline-table;
+    width: 100%; }
+.bb-menu-container .panel-heading.menu-panel h3 label {
+    font-size: 14px;
+    margin-right: 10px; }
+.bb-menu-container .panel-heading.menu-panel h3 input {
+    border: 1px solid #dfdfdf;
+    text-indent: 5px;
+    padding: 5px 0;
+    width: 250px; }
+
+/*# sourceMappingURL=style.css.map */

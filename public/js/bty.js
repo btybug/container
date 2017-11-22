@@ -1,22 +1,22 @@
 // Vertical Menu
-jQuery(document).ready(function($) {
+jQuery(document).ready(function ($) {
     $(".bty-vertical-menu-2>ul li").hover(
-        function() {
+        function () {
             $(this).find('ul').slideDown();
         },
-        function() {
+        function () {
             $(this).find('ul').slideUp();
         });
 });
-jQuery(document).ready(function($) {
-    $(".bty-vertical-menu-1 li.dropdown").hover(function() {
+jQuery(document).ready(function ($) {
+    $(".bty-vertical-menu-1 li.dropdown").hover(function () {
         var id = $(this).attr("rel");
         $(this).toggleClass("active");
         $(".bty-vertical-menu-1 ul.dropdown-" + id).toggle("fade", 250);
     });
 });
-$(function() {
-    var Accordion = function(el, multiple) {
+$(function () {
+    var Accordion = function (el, multiple) {
         this.el = el || {};
         this.multiple = multiple || false;
 
@@ -27,7 +27,7 @@ $(function() {
         links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown)
     }
 
-    Accordion.prototype.dropdown = function(e) {
+    Accordion.prototype.dropdown = function (e) {
         var $el = e.data.el;
         $this = $(this),
             $next = $this.next();
@@ -37,14 +37,15 @@ $(function() {
 
         if (!e.data.multiple) {
             $('.bty-vertical-menu-3 ul li>ul').not($next).slideUp().parent().removeClass('open');
-        };
+        }
+        ;
     }
 
     var accordion = new Accordion($('#accordion'), false);
 });
 //Creative menu 1
-$(document).ready(function(){
-    $('.bty-creative-menu-1>div').click(function(){
+$(document).ready(function () {
+    $('.bty-creative-menu-1>div').click(function () {
         var card = this;
         console.log(card);
         var child = $('.bty-creative-menu-1>div>div:last-child');
@@ -60,7 +61,7 @@ $(document).ready(function(){
     });
 });
 //Creative menu 3
-$(document).ready(function(){
+$(document).ready(function () {
 
     $(".bty-creative-menu-3>ul li>a").click(function () {
         if ($(".bty-creative-menu-3>div>ul").is(":hidden")) {
@@ -94,7 +95,7 @@ $(document).ready(function(){
     });
 });
 //Creative menu 4
-$(document).ready(function(){
+$(document).ready(function () {
 
     $(".bty-creative-menu-4-icon").click(function () {
         if ($(".bty-creative-menu-4").is(":hidden")) {

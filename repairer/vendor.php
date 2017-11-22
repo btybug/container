@@ -75,7 +75,7 @@ function command()
         if (file_exists(__DIR__ . '/composer/extracted')) {
             echo 'mtav';
             require_once(__DIR__ . '/composer/extracted/extracted/vendor/autoload.php');
-            $input = new \Symfony\Component\Console\Input\StringInput('install -vvv -d ' . $path);
+            $input = new \Symfony\Component\Console\Input\StringInput('update -vvv -d ' . $path);
             $output = new \Symfony\Component\Console\Output\StreamOutput(fopen('php://output', 'w'));
             $app = new \Composer\Console\Application();
             $app->run($input, $output);

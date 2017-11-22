@@ -4,6 +4,16 @@
 
 /* 4.1 Predefined Classes */
 
+body, html {
+    height: 100%;
+}
+
+div#wrapper {
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+}
+
 label {
     font-weight:normal !important;
 }
@@ -1315,9 +1325,11 @@ div.d4{
 .panel-btybug  .content {
     padding: 20px;
 }
-.adm-top{
+
+.adm-top {
     overflow: auto;
-    height: calc(100vh - 100px);
+    flex: 1 100%;
+    display: flex;
 }
 .main-wrapper_custm{
     background-color: #273135 !important;
